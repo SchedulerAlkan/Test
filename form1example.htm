@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Just Your Basic Form </title>
+  <!-- You Basic Title -->
+
+<script>
+    var myColor = '#'+(Math.random()*0xFFFFFF<<0).toString(16);
+    document.write('\
+        <style>\
+            body{\
+                background-color: '+myColor+';\
+            }\
+        </style>\
+    ');
+</script>
+<!-- how to change the background color -->
+
+
+<script src="jquery.js"></script>
+<script>
+    function changeFont()
+    {
+    var idee = document.getElementById("p1").style.fontFamily; 
+
+        if( idee == 'times')
+        {
+   document.getElementById("p1").style.fontFamily = 'courier';
+        }
+        else if(idee == 'courier')
+        {
+   document.getElementById("p1").style.fontFamily = 'times';
+        }
+
+var int=setTimeout(function(){changeFont();},1000);
+
+    }
+</script>
+</head>
+
+<body onload="    changeFont();">
+<p id="p1" style="font-family: times;">UNIVERSITY OF TORONTO </p>
+</body>
+<!-- changing the font between different fonts -->
+
+<hr>
+
+<link type="text.css" rel="stylesheet"
+
+	href="css/ui-lightness.jquery-ui-1.8.22.custom.css" />
+	<link type="text/css" rel="stylesheet"
+		href="css/cal.css" />
+	<script type="text/javascript"
+		src="js/jquery-1.7.2.min.js">
+		</script>
+	<script type="text/javascript">
+		src="js.jquery-ui-1.8.22.custom.min.js">
+		</script>
+	<script type="text/javascript"
+		src="js.cal.js">
+	</script>
+
+	<body>
+		<div id="mainContainer">
+		<form action="#" method="POST">
+		<input type="text" name="cal" id="cal">
+		</form> 
+		</div> <!-- end mainContainer -->
+	</body>
+
+<hr>
+
+<script type="text/javascript" src="jquery-1.7.2.min.js"></script>
+ 	<body>
+ 	<image id= "home" name ="img_home" src="home_default.png" alt="Home" /><br />
+ 	<image id= "blog" name ="img_blog" src="blog_default.png" alt="Blog" /><br />
+ 	<image id= "about" name = "img_about" src="about_default.png" alt="About" /><br />
+ 	<script type= "text/javascript">
+
+ 	$(window).load(function () {
+ 		$('img').hover(function () {
+ 			$(this).attr("src",$(this).attr("id") + "_over.png");
+ 		}, function() {
+ 			$(this).attr("src",$(this).attr("id") + "_default.png");
+ 		});
+ 	});
+ 	</script>
+ 	</body>
+
+ 	<!-- how to make buttons -->
+
+<hr>
+
+  <meta name="viewport" content="width=device-width, inital-scale=1">
+  <link rel="stylesheet"
+  	href="jquery.mobile-1.1.1.css">
+  <script type="text/javascript"
+  	src="jquery-1.7.2.min.js">
+  </script>
+
+  <body>
+  <div data-role="page">
+  	<div data-role="header">
+  		<h1> THE ONLINE SCHEDULER 4 STUDENTS </h1>
+  		<div data-role="navbar">
+  		<ul>
+  			<li><a href ="#">link 1</a></li>
+  			<li><a href ="#">link 2</a></li>
+  		</ul>
+  		</div>
+  	</div>
+  	<div data-role="content">
+  		<p> Welcome  !!!!!!!! </p>
+  		<p> At this website, students can a view their schedule and find out other avaiable courses and lectures. Just upload ur scheule and we can help you find any leactures you need.  </p>
+  		<p> IF you have any questions, please email us :))) Happy to help the University of Toronto students . </p>
+  	</div>
+  	<div data-role="footer">
+  		<h2>Footer content</h2>
+  	</div>
+  	</div>	<!-- end page div -->
+  	</body>
+
+<!-- Subtitle with information , links and summary. Also has a footer at then end -->
+ 	<hr>
+
+
+<form>
+<div class="container">
+    <label for="upload" class="uploadButton"></label>
+    <input type="file" name="upload" id="upload" required />
+  </div>
+  <hr/>
+  <button type="submit">Submit</button>
+</form>
+
+	</html>
+
+<!-- uploading file and submitting it tosomething -->
+<hr>
+
+<head>
+  <script type="text/javascript">
+  function alertName() {
+    var name = document.forms[0].nametext.value;
+    if (name == "steve") {
+      alert ("Hello Steve. Welcome to Machine");
+    }
+    else if (name == "tim") {
+      alert("Hello Tim.");
+    }
+       else {
+        alert ("Hello " + name );
+       }
+      return true;
+    } // end function
+
+    </script>
+    </head>
+    <body>
+    <form id="myform" action= "#" onsubmit-="return alertName();" >
+    <p>Username: <input id="nametext" name= "username" type="text" /></p>
+    <p><input type="submit" /></p>
+    </form>
+    </body> 
+<!-- inputting the name -->
+
+<hr>
+
+   <script type= "text/javascript" src="jqery-1.7.2.min.js"></script>
+     <table>
+     <tr>
+     <td>University of Toronto Scarborough</td>
+     <td></td>
+    </tr>
+    <tr>
+    	<td>Unviersity of Toronot Mississauga</td>
+    	<td>- St. Michaels College</td>
+    </tr>
+    <tr>
+    	<td>University of College</td>
+    	<td></td>
+    </tr>
+    <tr>
+    	<td>St. Michael's College </td>
+    	<td></td>
+    </tr>
+    <tr>
+    	<td>Row 5 Column 1 of the table</td>
+    	<td></td>
+    </tr>
+    </table>
+    <script type="text/javascript">
+    $(document).ready(function() {
+    	$('tr:odd').css("background-color", "#abacab");
+    	});
+    // adding information 
+
+  </script>
+</head>
+<body>
+<form id="myform" action="#" onsubmit="return alertName();">
+<p>Username: <input id="nametext" name ="username" type="text /></p"
+<p><input type= "submit" /></p>
+</form>
+</body>
+</html>    
+
+< script type="text/javascript" src="ehandler.js"></script>
+<script type="text/javascript">
+function formValid(eventObj) {
+	if (document.forms[0].textname.value.length == 0) {
+		alert("Name is required.");
+		if(eventObj.preventDefault) {
+			eventObj.preventDefault();
+		} else {
+			window.event.returnValue = false;
+		}
+		return false;
+	} else {
+		alert("Hello" + document.forms[0].textname.value);
+		return true;
+	}
+}
+</script>
+
+<body>
+<p> A Basic Form Example </p>
+<form action ="#">
+<p>Name <em>(Required)</em>: <input id="textbox1" name="textname" type="text"  /></p/
+<p><input id="sumbitbutton1" type="submit" /></p>
+<script type ="text/javascript">
+var formE1 = document.getElements.ByTagName("form")[0];
+Ehandler.add(formE1,"submit", function(eventObj)   { formValid(eventObj); } );
+
+</form>
+</body>
+
+
+function changeImage()
+{
+    var image = document.getElementById('myImage');
+
+    if ( image.src.match("logo") )
+    {
+        image.src = "logo.png";
+    }
+    else
+    {
+        image.src = "logo.png";
+    }
+
+<hr>
+
+// adding images to form 
+</html>
+
